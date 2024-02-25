@@ -8,11 +8,17 @@ Visual Studio Code Extention for [ALMO](https://github.com/abap34/ALMO) .
 
 `almo.preview`
 
-現在開いている Markdownファイルのプレビューを新しいタブで表示します。
+Open the preview of the editing file.
 
-ファイルに対して編集を加えると、プレビューも自動で更新されます。
+If the file is updated, the preview will be updated automatically.
 
-`settings.json` で `almo.css` の値を設定することで、利用するCSSファイルを指定することができます。
+Set `almo.css` in `settings.json` to specify the CSS file to be used for the preview.
+
+```json
+{
+    "almo.css": "path/to/your.css"
+}
+```
 
 # Requirements  
 
